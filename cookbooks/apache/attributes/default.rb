@@ -1,1 +1,1 @@
-default[:apache][:message] = "Hello World"
+default[:apache][:message]="Hello World"
