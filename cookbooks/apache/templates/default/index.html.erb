@@ -1,5 +1,7 @@
 <html>
 <body>
-<%=node['apache']['message']%>
+	<h1>Welcome to <%=node['company']%></h1>
+	<h2>We love <%=@site_name %></h2>
+	<%= node['ipaddress'] %>:<%=@port%>
 </body>
 </html>
